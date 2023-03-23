@@ -1,0 +1,17 @@
+public class GajiLembur {
+   public static void main(String[] args) {
+      // Deklarasi variabel
+      int gaji, jamLembur, upahLembur, total;
+      
+      // Nilai awal
+      gaji = 4000000;
+      jamLembur = 6;
+      upahLembur = 150000;
+      
+      // Proses perhitungan
+      total = gaji + (jamLembur * upahLembur);
+      
+      // Menampilkan hasil
+      System.out.println("Total Gaji + Lembur = " + total);
+   }
+}
